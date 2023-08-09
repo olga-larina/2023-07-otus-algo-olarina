@@ -1,0 +1,4 @@
+rootProject.name = '2023-07-otus-algo-olarina'
+include 'hw01-harry-potter-square'
+include 'hw02-lucky-tickets'
+
