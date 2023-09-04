@@ -10,3 +10,4 @@
 | [hw04-basic-structures](./hw04-basic-structures)       | Массивы, очереди                        |
 | [hw05-bits](./hw05-bits)                               | Шахматные биты                          |
 | [hw06-simple-sort](./hw06-simple-sort)                 | BubbleSort, InsertionSort, ShellSort    |
+| [hw07-heap-sort](./hw07-heap-sort)                     | SelectionSort, HeapSort                 |

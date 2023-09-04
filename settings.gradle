@@ -5,4 +5,5 @@ include 'hw03-algebraic-algo'
 include 'hw04-basic-structures'
 include 'hw05-bits'
 include 'hw06-simple-sort'
+include 'hw07-heap-sort'
 
