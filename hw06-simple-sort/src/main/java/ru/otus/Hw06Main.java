@@ -6,14 +6,15 @@ import ru.otus.tester.Task;
 import ru.otus.tester.Tester;
 
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.List;
 import java.util.Random;
 
 public class Hw06Main {
 
     public static void main(String[] args) throws Exception {
-        testWithData();
-//        testWithFiles();
+//        testWithData();
+        testWithFiles();
     }
 
     public static void testWithData() throws Exception {
@@ -64,6 +65,8 @@ public class Hw06Main {
             new SortIntTask(ShellSortHibbard::new, "Shell Hibbard")
         );
 
+        Path filesPath = Paths.get("files").toAbsolutePath().resolve("sorting-tests");
+
         List<String> dirs = List.of(
             "0.random", // массив из случайных чисел
             "1.digits", // массив из случайных цифр
@@ -73,7 +76,7 @@ public class Hw06Main {
         for (String dir : dirs) {
             System.out.println("---------------------------------------------------------");
             System.out.println("Dir: " + dir);
-            Tester<int[]> sortTester = new IntArrayTester(tasks, Path.of(Hw06Main.class.getClassLoader().getResource(dir).toURI()));
+            Tester<int[]> sortTester = new IntArrayTester(tasks, filesPath.resolve(dir));
             sortTester.runTests();
             sortTester.stop();
         }
