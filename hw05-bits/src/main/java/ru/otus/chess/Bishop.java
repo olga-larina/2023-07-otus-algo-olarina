@@ -4,6 +4,7 @@ import java.math.BigInteger;
 
 /**
  * Задача про слона
+ * Другой вариант: главную диагональ сдвинуть либо влево, либо вправо, и так же с другой главной диагональю
  */
 public class Bishop implements BiChess {
 
