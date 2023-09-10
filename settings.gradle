@@ -6,4 +6,5 @@ include 'hw04-basic-structures'
 include 'hw05-bits'
 include 'hw06-simple-sort'
 include 'hw07-heap-sort'
+include 'hw09-linear-sort'
 

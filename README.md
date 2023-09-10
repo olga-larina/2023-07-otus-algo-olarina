@@ -2,12 +2,13 @@
 ### Группа: algo-2023-07
 ### ФИО: Ольга Ларина
 
-| Модуль                                                 | Задание                                 |
-|--------------------------------------------------------|-----------------------------------------|
-| [hw01-harry-potter-square](./hw01-harry-potter-square) | Квадратные заклинания                   |
-| [hw02-lucky-tickets](./hw02-lucky-tickets)             | Счастливые билеты                       |
-| [hw03-algebraic-algo](./hw03-algebraic-algo)           | Степень, Числа Фибоначчи, Простые числа |
-| [hw04-basic-structures](./hw04-basic-structures)       | Массивы, очереди                        |
-| [hw05-bits](./hw05-bits)                               | Шахматные биты                          |
-| [hw06-simple-sort](./hw06-simple-sort)                 | BubbleSort, InsertionSort, ShellSort    |
-| [hw07-heap-sort](./hw07-heap-sort)                     | SelectionSort, HeapSort                 |
+| Модуль                                                             | Задание                                 |
+|--------------------------------------------------------------------|-----------------------------------------|
+| [hw01-harry-potter-square](./hw01-harry-potter-square)             | Квадратные заклинания                   |
+| [hw02-lucky-tickets](./hw02-lucky-tickets)                         | Счастливые билеты                       |
+| [hw03-algebraic-algo](./hw03-algebraic-algo)                       | Степень, Числа Фибоначчи, Простые числа |
+| [hw04-basic-structures](./hw04-basic-structures)                   | Массивы, очереди                        |
+| [hw05-bits](./hw05-bits)                                           | Шахматные биты                          |
+| [hw06-simple-sort](./hw06-simple-sort)                             | BubbleSort, InsertionSort, ShellSort    |
+| [hw07-heap-sort](./hw07-heap-sort)                                 | SelectionSort, HeapSort                 |
+| [hw09-linear-sort](./hw09-linear-sort)                             | Линейная сортировка                     |
