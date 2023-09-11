@@ -11,4 +11,5 @@
 | [hw05-bits](./hw05-bits)                                           | Шахматные биты                          |
 | [hw06-simple-sort](./hw06-simple-sort)                             | BubbleSort, InsertionSort, ShellSort    |
 | [hw07-heap-sort](./hw07-heap-sort)                                 | SelectionSort, HeapSort                 |
+| [hw08-quick-merge-external-sort](./hw08-quick-merge-external-sort) | QuickSort, MergeSort, ExternalSort      |
 | [hw09-linear-sort](./hw09-linear-sort)                             | Линейная сортировка                     |
