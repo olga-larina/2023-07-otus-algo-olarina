@@ -18,8 +18,8 @@ public class Hw10Main {
         for (int type = 1; type <= 2; type++) {
             for (int n = 10; n <= 10_000_000; n *= 10) {
                 int[] arr = (type == 1) ? random(n) : sorted(n);
-                Tree<Integer, Integer> tree = new BinarySearchTree<>();
-//                Tree<Integer, Integer> tree = new AVLTree<>();
+//                Tree<Integer, Integer> tree = new BinarySearchTree<>();
+                Tree<Integer, Integer> tree = new AVLTree<>();
 
                 // добавление элементов
                 long start = System.currentTimeMillis();
@@ -31,14 +31,14 @@ public class Hw10Main {
                 // поиск элементов
                 start = System.currentTimeMillis();
                 for (int i = 0; i < n / 10; i++) {
-                    tree.search(random.nextInt(Integer.MAX_VALUE));
+                    tree.search(random.nextInt(n));
                 }
                 long msSearch = System.currentTimeMillis() - start;
 
                 // удаление элементов
                 start = System.currentTimeMillis();
                 for (int i = 0; i < n / 10; i++) {
-                    tree.remove(random.nextInt(Integer.MAX_VALUE));
+                    tree.remove(random.nextInt(n));
                 }
                 long msRemove = System.currentTimeMillis() - start;
 
