@@ -13,3 +13,4 @@
 | [hw07-heap-sort](./hw07-heap-sort)                                 | SelectionSort, HeapSort                 |
 | [hw08-quick-merge-external-sort](./hw08-quick-merge-external-sort) | QuickSort, MergeSort, ExternalSort      |
 | [hw09-linear-sort](./hw09-linear-sort)                             | Линейная сортировка                     |
+| [hw10-avl-tree](./hw10-avl-tree)                                   | Двоичные деревья поиска, АВЛ            |

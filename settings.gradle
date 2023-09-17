@@ -8,4 +8,4 @@ include 'hw06-simple-sort'
 include 'hw07-heap-sort'
 include 'hw08-quick-merge-external-sort'
 include 'hw09-linear-sort'
-
+include 'hw10-avl-tree'
