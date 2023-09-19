@@ -28,12 +28,12 @@ public abstract class SortIntAlgo {
     }
 
     protected void swap(int i, int j) {
-        if (i != j) {
-            int tmp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = tmp;
-            asg = asg.add(BigInteger.valueOf(3));
-        }
+//        if (i != j) { // из-за этого замедление работы
+        int tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tmp;
+        asg = asg.add(BigInteger.valueOf(3));
+//        }
     }
 
     protected int findMax(int to) {
