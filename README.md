@@ -2,15 +2,16 @@
 ### Группа: algo-2023-07
 ### ФИО: Ольга Ларина
 
-| Модуль                                                             | Задание                                 |
-|--------------------------------------------------------------------|-----------------------------------------|
-| [hw01-harry-potter-square](./hw01-harry-potter-square)             | Квадратные заклинания                   |
-| [hw02-lucky-tickets](./hw02-lucky-tickets)                         | Счастливые билеты                       |
-| [hw03-algebraic-algo](./hw03-algebraic-algo)                       | Степень, Числа Фибоначчи, Простые числа |
-| [hw04-basic-structures](./hw04-basic-structures)                   | Массивы, очереди                        |
-| [hw05-bits](./hw05-bits)                                           | Шахматные биты                          |
-| [hw06-simple-sort](./hw06-simple-sort)                             | BubbleSort, InsertionSort, ShellSort    |
-| [hw07-heap-sort](./hw07-heap-sort)                                 | SelectionSort, HeapSort                 |
-| [hw08-quick-merge-external-sort](./hw08-quick-merge-external-sort) | QuickSort, MergeSort, ExternalSort      |
-| [hw09-linear-sort](./hw09-linear-sort)                             | Линейная сортировка                     |
-| [hw10-avl-tree](./hw10-avl-tree)                                   | Двоичные деревья поиска, АВЛ            |
+| Модуль                                                             | Задание                                             |
+|--------------------------------------------------------------------|-----------------------------------------------------|
+| [hw01-harry-potter-square](./hw01-harry-potter-square)             | Квадратные заклинания                               |
+| [hw02-lucky-tickets](./hw02-lucky-tickets)                         | Счастливые билеты                                   |
+| [hw03-algebraic-algo](./hw03-algebraic-algo)                       | Степень, Числа Фибоначчи, Простые числа             |
+| [hw04-basic-structures](./hw04-basic-structures)                   | Массивы, очереди                                    |
+| [hw05-bits](./hw05-bits)                                           | Шахматные биты                                      |
+| [hw06-simple-sort](./hw06-simple-sort)                             | BubbleSort, InsertionSort, ShellSort                |
+| [hw07-heap-sort](./hw07-heap-sort)                                 | SelectionSort, HeapSort                             |
+| [hw08-quick-merge-external-sort](./hw08-quick-merge-external-sort) | QuickSort, MergeSort, ExternalSort                  |
+| [hw09-linear-sort](./hw09-linear-sort)                             | Линейная сортировка                                 |
+| [hw10-avl-tree](./hw10-avl-tree)                                   | Двоичные деревья поиска, АВЛ                        |
+| [hw11-other-trees](./hw11-other-trees)                             | Расширяющееся, рандомизированное, декартово деревья |
