@@ -70,7 +70,7 @@ public class ChainHashTable<K, V> implements HashTable<K, V> {
             node = node.next;
         }
         // если не нашли, то создаём новый узел и добавляем в начало списка
-        // если бы поддерживали ключи null, то нужно было бы добавить флаг
+        // если бы поддерживали ключи/значения null, то нужно было бы добавить флаг
         if (prevValue == null) {
             Node<K, V> newNode = new Node<>(key, value, oldNode);
             buckets[hash] = newNode;
@@ -133,9 +133,13 @@ public class ChainHashTable<K, V> implements HashTable<K, V> {
             prev = node;
             node = node.next;
         }
-        // уменьшаем размер
+
+        // уменьшаем размер, если ключ существовал
+        // если бы поддерживали ключи/значения null, то нужно было бы добавить флаг
         // можно рехэшировать при необходимости
-        size--;
+        if (prevValue != null) {
+            size--;
+        }
         return prevValue;
     }
 

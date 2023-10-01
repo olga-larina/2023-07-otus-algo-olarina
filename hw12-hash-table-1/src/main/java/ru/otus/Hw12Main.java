@@ -20,13 +20,14 @@ public class Hw12Main {
         HashTable<String, Integer> hashTable = new ChainHashTable<>();
 
         int n = 100;
+        int keyLength = 20;
 
         // генерация значений
         List<String> keys = new ArrayList<>();
         List<Integer> values = new ArrayList<>();
         List<Integer> newValues = new ArrayList<>();
         for (int i = 1; i <= n; i++) {
-            keys.add(randomAlphaNumericString(20));
+            keys.add(randomAlphaNumericString(keyLength));
             values.add(random.nextInt(-5000, 5001));
             newValues.add(random.nextInt(-5000, 5001));
         }
@@ -52,6 +53,13 @@ public class Hw12Main {
             check(hashTable.size() == i + 1);
             check(!hashTable.isEmpty());
         }
+
+        // удаляем несуществующее значение (например, другой длины - у нас все ключи длины 20)
+        String notExistingKey = randomAlphaNumericString(keyLength + 1);
+        check(hashTable.remove(notExistingKey) == null);
+        check(hashTable.get(notExistingKey) == null);
+        check(!hashTable.contains(notExistingKey));
+        check(hashTable.size() == n);
 
         // удаление значений из хэш-таблицы
         for (int i = n - 1; i >= 0; i--) {
