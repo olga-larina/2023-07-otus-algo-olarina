@@ -77,7 +77,7 @@ public class ChainHashTable<K, V> implements HashTable<K, V> {
             // увеличиваем размер и рехэшируем при необходимости
             size++;
             if (size > threshold) {
-                resize(size * 2 + 1);
+                resize(capacity * 2 + 1);
             }
         }
         return prevValue;
