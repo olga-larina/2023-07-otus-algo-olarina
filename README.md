@@ -20,3 +20,5 @@
 | [hw14-trie](./hw14-trie)                                           | Префиксное дерево                                       |
 | [hw15-strong-connected](./hw15-strong-connected)                   | Алгоритм Косарайю (поиск компонентов сильной связности) |
 | [hw16-topological-sort](./hw16-topological-sort)                   | Топологическая сортировка                               |
+| [hw17-min-spanning-tree](./hw17-min-spanning-tree)                 | Минимальный скелет                                      |
+
