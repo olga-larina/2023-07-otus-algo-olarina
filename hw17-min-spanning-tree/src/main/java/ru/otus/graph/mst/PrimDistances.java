@@ -28,7 +28,7 @@ public class PrimDistances {
             distTo[v] = Integer.MAX_VALUE; // сначала все расстояния равны максимальному значению
         }
         this.visited = new boolean[graph.verticesCount()];
-        this.pq = new IndexMinHeap<>(graph.edgesCount());
+        this.pq = new IndexMinHeap<>(graph.verticesCount());
         // поиск минимального скелета
         for (int v : graph.vertices()) {
             if (!visited[v]) {
