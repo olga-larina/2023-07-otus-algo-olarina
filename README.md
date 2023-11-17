@@ -22,3 +22,4 @@
 | [hw16-topological-sort](./hw16-topological-sort)                   | Топологическая сортировка                               |
 | [hw17-min-spanning-tree](./hw17-min-spanning-tree)                 | Минимальный скелет                                      |
 | [hw18-shortest-paths](./hw18-shortest-paths)                       | Кратчайший путь                                         |
+| [hw19-boyer-moore](./hw19-boyer-moore)                             | Алгоритм Бойера-Мура                                    |
