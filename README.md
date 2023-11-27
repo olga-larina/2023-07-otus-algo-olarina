@@ -24,3 +24,4 @@
 | [hw18-shortest-paths](./hw18-shortest-paths)                       | Кратчайший путь                                         |
 | [hw19-boyer-moore](./hw19-boyer-moore)                             | Алгоритм Бойера-Мура                                    |
 | [hw20-kmp](./hw20-kmp)                                             | Алгоритм Кнута-Морриса-Пратта                           |
+| [hw21-rle](./hw21-rle)                                             | Алгоритм сжатия RLE                                     |
