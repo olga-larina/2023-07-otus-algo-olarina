@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+}
+
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
+
+dependencies {
+    implementation 'net.agkn:hll:1.6.0'
+    implementation 'de.siegmar:fastcsv:2.2.2'
+    implementation 'com.google.guava:guava:33.0.0-jre'
+}

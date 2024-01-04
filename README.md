@@ -26,3 +26,4 @@
 | [hw20-kmp](./hw20-kmp)                                             | Алгоритм Кнута-Морриса-Пратта                           |
 | [hw21-rle](./hw21-rle)                                             | Алгоритм сжатия RLE                                     |
 | [hw22-dynamic-programming](./hw22-dynamic-programming)             | Динамическое программирование                           |
+| [hw23-probabilistic-algo](./hw23-probabilistic-algo)               | Вероятностные алгоритмы                                 |
